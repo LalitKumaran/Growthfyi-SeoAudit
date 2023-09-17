@@ -22,7 +22,7 @@ export function UrlBox() {
     if (isValidUrl) {
       setIsLoading(true);
       await axios
-        .post("/search", { url: url })
+        .get("/search", { url: url })
         .then((res) => {
           console.log("Response:",res.data);
           setResult(res.data);
