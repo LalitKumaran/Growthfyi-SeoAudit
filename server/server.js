@@ -16,7 +16,9 @@ app.use(express.json());
 const api_loginID = process.env.API_ID;
 const api_password = process.env.API_PASSWORD;
 
-const api_token = btoa(`${api_loginID}:${api_password}`);
+// const api_token = btoa(`${api_loginID}:${api_password}`);
+
+const api_token = Buffer.from(`${api_loginID}:${api_password}`).toString('base64');
 
 const headers = {
   Authorization: `Basic ${api_token}`,
