@@ -1,0 +1,98 @@
+#export-button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px; 
+    outline:2px solid #ffc107;
+    color: #ffc107;
+    background-color: #212529;
+    border: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#export-button:hover{
+    outline: none;
+    color: #212529;
+    background-color: #ffc107;
+    border: none;
+}
+
+.resultPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+#onpage-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffc107;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #212529;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+#onpage-score p{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffc107;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #212529;
+    width: 290px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.box-contents p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.values {
+    font-size: xx-large;
+}
+
+.checkbox-contents p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.checkbox-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffc107;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #212529;
+    width: 330px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: small;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+}

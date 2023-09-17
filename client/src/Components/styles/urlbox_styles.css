@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+} 
+form{
+    justify-content: center;
+}
+#url-box{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffc107;
+    background-color: #212529;
+    color: #ffc107;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0;
+}
+
+#search-button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px; 
+    outline:2px solid #ffc107;
+    color: #ffc107;
+    background-color: #212529;
+    border: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#search-button:hover{
+    outline: none;
+    color: #212529;
+    background-color: #ffc107;
+    border: none;
+}
+
+.resultPage{
+    justify-content: center;
+    color: #ffc107;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+}
+
+
+
